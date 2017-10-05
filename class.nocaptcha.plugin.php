@@ -3,7 +3,7 @@
 $PluginInfo['noCaptcha'] = [
     'Name' => 'No Captcha',
     'Description' => 'This plugin deactivates the captcha shown on registration.',
-    'Version' => '1.0.0',
+    'Version' => '1.1.0',
     'RequiredApplications' => ['Vanilla' => '>= 2.3.1'],
     'MobileFriendly' => true,
     'HasLocale' => true,
