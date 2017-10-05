@@ -17,3 +17,9 @@ class NoCaptchaPlugin extends Gdn_Plugin {
         $args['Handled'] = true;
     }
 }
+
+if (!function_exists('validateCaptcha')) {
+    function validateCaptcha() {
+        return true;
+    }
+}
